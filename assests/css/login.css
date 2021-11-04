@@ -1,0 +1,94 @@
+
+/********login/registration******/
+
+.form-box {
+   
+    width: 400px;
+    height: 550px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 1px;
+    overflow: hidden;
+    border: 5px solid black;
+}
+
+.button-box {
+    width: 240px;
+    margin-top: 40px;
+    margin-left: 70px;
+    position: relative;
+    box-shadow: 0 0 20px 9px #a9e4b7;
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative; 
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    background: linear-gradient(to right, #1a6b2d, #3bee65);
+    border-radius: 30px;
+    transition: 0.5s;
+    border: 0px;
+}
+
+.input-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 40px auto;
+    background: linear-gradient(to right,  #1a6b2d, #3bee65 );
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+
+.span {
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#Log-In {
+    left: 50px;
+}
+
+#Register {
+    left: 450px;
+}
